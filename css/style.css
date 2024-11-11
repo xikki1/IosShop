@@ -1,0 +1,220 @@
+@import url(./fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: "Montserrat";
+ background: #151515;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    background: #282828;
+    padding: 6px 0;
+}
+.menu{
+display: flex;
+gap: 30px;
+margin-right: auto;
+margin-left: 30px;
+}
+.menu__link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.service{
+    font-size: 20px;
+    display: flex;
+    gap: 25px;
+    color: #fff;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header__content{
+    flex-grow: 1;
+    background: url(../img/Header.jpg) center / cover ;
+    width: 100%;
+    height: 700px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header__title{
+    font-family: "Prosto-One";
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    margin-bottom: 8px;
+}
+.header__wrapper{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 13px 14px;
+    border-radius: 10px;
+    background: #fff;
+    color: #171718;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 38px;
+}
+.header__icon{
+font-size: 16px;
+}
+.main__container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+.main__title{
+    color: #fff;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+.blackpods__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blackpods__title{
+    color: #fff;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    max-width: 540px;
+    width: 100%;
+}
+.content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.airpods__container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.airpodspro__title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    max-width: 333px;
+    width: 100%;
+}
+.airpods__line{
+     width: 61px;
+     height: 1px;
+     background: #C4C4C4; 
+}
+.airpodspro__title_right{
+    text-align: right;
+}
+.catalog__container{
+    padding-top: 79px;
+}
+.catalog__title{
+    color: #000;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.catalog__wrapper{
+    background: #fff;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+    text-align: center;
+}
+.catalog__price{
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.catalog__desc{
+    background: #151515;
+    color: #fff;
+    padding: 7px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    width: 161px;
+    margin: 0 auto;
+}
+.catalog__card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.end__container{
+    background: #282828;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 215px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+}
+.footer__icons{
+    color: #fff;
+    font-size: 55px;
+    gap: 29px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 270px;
+}
+.footer__menu{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.footer__logo{
+ position: relative;
+ right: 339px;
+}

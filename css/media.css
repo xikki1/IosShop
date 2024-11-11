@@ -1,0 +1,161 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .end__container{
+        min-width: 1120px;
+        width: 100%;
+    }
+    .main__container, .blackpods__container, .airpods__container, .main__title, .airpods__title{
+        flex-wrap: wrap;
+        order: 1;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+    .header__content{
+        flex-wrap: wrap;
+        order: 1;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        min-width: 1120px;
+        width: 100%;
+    }
+    .nav{
+        min-width: 1120px;
+        width: 100%;
+    }
+    .footer__logo{
+        margin-left: 50px;
+    }
+    .catalog__card{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .airpods__line{
+        opacity: -1;
+    }
+    .blackpods__title{
+        text-align: left;
+    }
+    .header__wrapper{
+        margin-top: 38px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+    .main__container, .blackpods__container, .airpods__container, .main__title{
+        flex-wrap: wrap;
+        order: 1;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .catalog__card{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .airpods__line{
+        opacity: -1;
+    }
+    .blackpods__title{
+        text-align: left;
+    }
+    .footer__menu, .footer__logo{
+        position: relative;
+        right: 150px;
+    }
+    .end__container{
+        min-width: 1120px;
+        width: 100%;
+    }
+    .header__wrapper{
+        margin-top: 38px;
+    }
+    .footer__icons{
+        position: relative;
+        left: 50px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .main__container, .blackpods__container, .airpods__container, .header__content{
+        flex-wrap: wrap;
+        order: 1;
+        justify-content: center;
+        align-items: center;
+        min-width: 1100px;
+    }
+    .main__title{
+        width: 538px;
+        text-align: center;
+    }
+    .nav{
+        min-width: 1120px;
+        width: 100%;
+    }
+    .catalog__card{
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        position: relative;
+        left: 200px;
+    }
+    .footer__menu, .footer__logo{
+        position: relative;
+        right: 50px;
+    }
+    .end__container{
+        min-width: 1120px;
+        width: 100%;
+    }
+    .footer__icons{
+        position: relative;
+        left: 50px;
+    }
+    .header__wrapper{
+        margin-top: 38px;
+    }
+}
+@media (max-width: 432px){
+    .container{
+        width: 100%;
+    }
+    .footer{
+        align-items: center;
+        justify-content: center;
+    }
+    .service{
+        margin-right: 40px;
+    }
+    .catalog__card{
+        position: relative;
+        left: 370px;
+    }
+    .footer__menu{
+        position: relative;
+        left: 50px;
+    }
+    .blackpods__title{
+        max-width: 350px;
+        width: 100%;
+        position: relative;
+        right: 5px;
+    }
+    .main__title{
+        max-width: 350px;
+        width: 100%;
+    }
+    .airpods__img{
+        width: 350px;
+    }
+    .header__wrapper{
+        margin-top: 38px;
+    }
+}
